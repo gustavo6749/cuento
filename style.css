@@ -1,0 +1,46 @@
+body {
+  font-family: "Georgia", serif;
+  background: #fefbf4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.libro {
+  width: 90%;
+  max-width: 700px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.pagina {
+  min-height: 400px;
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.controles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #fddde6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc9d9;
+}
